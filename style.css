@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    
+    background-position: center;
+    background-size: cover;
+}
+.hero-shadow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    z-index: -1;
+}
+
+/* Header */
+
+.baner{
+height: 470px;
+width: 100vw;
+background-image: url("img/baner.jpg");
+background-position: center;
+background-size: cover;
+}
+
+/* Oferta */
+.card{
+    width: 250px;
+    height: 250px;
+}
+.text-card{
+    margin-bottom: 40px;
+}
+.aboutus-shadow{
+    box-shadow: inset 0 5px 10px -5px rgba(0,0,0, .4);
+}
+.card-one{
+    background-image: url('img/czyszczenie_lamp.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0,0,0, .95);
+    
+}
+.card-two{
+    background-image: url('img/czyszczenie_tapicerki.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0,0,0, .95);
+    
+}
+.card-three{
+    background-image: url('img/mycie.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0,0,0, .95);
+}
+
+.aboutus-shadow{
+    box-shadow: inset 0 5px 10px -5px rgba(0,0,0, .95);
+}
+
+.card-shadow {
+    box-shadow: inset 0 0 10px -5px rgba(0,0,0, .95);
+}
+
+/* Kontak */
+
+#kontakt{
+    background-color: rgb(235, 238, 237);
+}
+
+@media (min-width:992px){
+    .aboutus-info .container{
+        padding: 0;
+    }
+    /* .aboutus-shadow{
+        box-shadow: inset 0 5px 10px -5px rgba(0,0,0, .95);
+    } */
+    .card{
+        padding: 5em 0;
+        transform: skew(-15deg);
+    }
+    .text-right{
+        padding: 5em 0;
+        transform: skew(-15deg);
+    }
+   
+}
